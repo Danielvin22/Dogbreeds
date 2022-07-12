@@ -1,0 +1,389 @@
+#footer {
+    background:#fdfeff;
+    height: 450px;
+    border-top: 1px solid #E3E7EE;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+    
+}
+
+
+.last_logo{
+    display: inline-flex;
+}
+.footer_content1 h3{
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.footer_content .footer_content1 p{
+    width: 330px;
+    height: 120px;
+    font-size: 14px;
+    font-family:'Inter', sans-serif ;
+    font-weight: 400;
+    font-style: normal;
+    color: #5f718c;
+    padding: 10px;
+}
+.footer_content .footer2 li{
+    font-size: 14px;
+    font-family:'Inter', sans-serif ;
+    font-weight: 400;
+    font-style: normal;
+    margin: 15px;
+    color:#5f718c 
+    
+
+}
+.footer_content .footer2 h2{
+   margin-bottom: 30px;
+
+}
+
+.footer_content .footer3 li{
+    font-size: 14px;
+    font-family:'Inter', sans-serif ;
+    font-weight: 400;
+    font-style: normal;
+    margin: 15px;
+    color:#5f718c ;
+
+}
+.footer_content .footer3 h2{
+    margin-bottom: 30px;
+
+}
+
+.footer_content2{
+    list-style: none;
+    margin-top: 30ppx;
+    
+}
+.footer_content3{
+    list-style: none;
+    margin-top: 30ppx;
+    
+}
+.footer4{
+    position: relative;
+}
+
+
+.footer_content .footer4 p{
+    width: 272px;
+    height: 34px;
+    font-size: 14px;
+    font-family:'Inter', sans-serif ;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* mailForm */
+
+
+
+.mailForm > input {
+    width: 304px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 2px solid #E3E7EE;
+    border-radius: 30px;
+    padding-left: 14px;
+}
+
+.mailForm > button {
+    position: relative;
+    right: 53px;
+    top: 17px;
+    background: none;
+    border: none;
+    outline: none;
+}
+.footer4 p{
+    font-size: 14px;
+    font-family:'Inter', sans-serif ;
+    font-weight: 400;
+    font-style: normal;
+    margin: 15px;
+    margin-top: 15px;
+    color:#5f718c 
+}
+
+.last-footer {
+    border-top: 1px solid #E3E7EE; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.last-footer .last-footer1{
+    margin-top: 40px;
+}
+.last-footer .last-footer2{
+    margin-top: 40px;
+}
+.last-footer .follow{
+    margin-top: 20px;
+}
+
+
+.last-footer li {   
+    font-family:'Inter', sans-serif ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    list-style: none;
+}
+.last-footer1{
+    font-family:'Inter', sans-serif ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    gap: 20px;
+}
+.last-footer2{ 
+    display: flex;
+    
+} 
+
+.last-footer .policy {
+    font-family:'Inter', sans-serif ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 20px;
+    width: 102px;
+    color: #343434;
+    border-bottom: 1px solid;
+    height: 20px
+    
+    
+
+} 
+.last-footer .Terms {
+    font-family:'Inter', sans-serif ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #343434;
+    width: 128px;
+    border-bottom: 1px solid;
+    height: 20px
+    
+    
+    
+} 
+
+.last-footer .last-footer2{
+    margin-right: 100px;
+}
+
+.last-footer .last-footer2 li {
+    margin-bottom: 11px;
+    
+}
+.last-footer .last-footer2 .follow {
+    margin-left: 20px;
+  
+    
+}
+
+.last-footer select {
+    width: 300px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1.2px solid #70788C;
+    border-radius: 10px;
+
+}
+
+/* footer mediaquary */
+
+@media screen and (max-width:900px) {
+    .footer_content {
+        display: block;
+        margin-left: 20px;
+    }
+
+  
+
+   .footer_content .footer_content2 li {
+       position: relative;
+       right: 10px;
+    
+   }
+   .footer_content .footer_content3 li {
+       position: relative;
+       right: 10px;
+    
+   }
+   .footer_content p  {
+       position: relative;
+       right: 10px;
+    
+   }  
+
+   /* last-footer madiaquary */
+
+
+   .last-footer {
+       display: block;
+       height: 250px;
+       
+
+   }
+   .last-footer2 {
+       display: block;
+       
+   }
+   .last-footer {
+    position: relative;   
+    }
+    .footer_content .footer_content4 p {
+    margin-right: 150px;    
+    }
+    .last-footer .last-footer1 {
+    position: absolute;
+    bottom: 50px;    
+    margin-left: 20px;
+
+    }
+    .last-footer .last-footer2 .language {
+    position: absolute;
+    bottom: 90px;    
+    margin-left: 20px;
+    }
+    .last-footer .last-footer2 .follow {
+    position: absolute;
+    top: 15px;
+    
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .footer_content {
+        display: block;
+        margin-left: 20px;
+    }
+
+   .footer_content{
+       
+   }
+
+   .footer_content .footer_content2 li {
+       position: relative;
+       right: 10px;
+    
+   }
+   .footer_content .footer_content3 li {
+       position: relative;
+       right: 10px;
+    
+   }
+   .footer_content p  {
+       position: relative;
+       right: 10px;
+    
+   }  
+
+   /* last-footer madiaquary */
+
+
+   .last-footer {
+       display: block;
+       height: 250px;
+       
+
+   }
+   .last-footer2 {
+       display: block;
+       
+   }
+   .last-footer {
+    position: relative;   
+    }
+    .footer_content .footer_content4 p {
+    margin-right: 150px;    
+    }
+    .last-footer .last-footer1 {
+    position: absolute;
+    bottom: 50px;    
+    margin-left: 20px;
+
+    }
+    .last-footer .last-footer2 .language {
+    position: absolute;
+    bottom: 90px;    
+    margin-left: 20px;
+    }
+    .last-footer .last-footer2 .follow {
+    position: absolute;
+    top: 15px;
+    
+    }
+@media screen and (max-width:414px) {
+
+    .last-footer .last-footer1 {
+    position: absolute;
+    bottom: 30px;    
+    
+    }
+    .last-footer .copy {
+        width: 120px;
+
+    }
+
+    .last-footer .li {
+        width: 100px; 
+        height: 20px;
+   
+    }
+    .last-footer .li {
+        width: 100px; 
+        height: 20px;
+   
+    }
+    @media screen and (max-width:280px) {
+    .footer_content .footer_content1 p {
+        font-size: 12px;
+        width: 270px;
+
+    }
+
+    .mailForm > input {
+        width: 240px;
+        height: 48px;
+        
+        
+    }
+    .mailForm > button {
+        position: relative;
+    right: -5px;
+        
+    }
+    .last-footer select {
+        width: 240px;
+        height: 40px;
+        
+    } 
+
+}
+
+
+
+
+
+
+
+    
+
+  
+
+
