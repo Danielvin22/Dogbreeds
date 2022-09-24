@@ -13,15 +13,15 @@
 }
 
 
-.card_content{
+.Breed{
     display: flex;
     flex-wrap: wrap;
    
 }
 
-.card_content img {
-    width: 350px;
-    height: 446px; 
+.Breed img {
+    width: 315px;
+    height: 400px; 
     margin: 30px 0px 0px 15px;
 }
 
@@ -29,7 +29,7 @@
     .body_content {
         margin-left: 40px;
     }
-    .card_content{
+    .Breed{
         margin-left: 20px;
     }
      
@@ -38,33 +38,47 @@
     .body_content {
         margin-left: 40px;
     }
-    .card_content{
+    .Breed{
         margin-left: 20px;
     }
-    .card_content img {
+    .Breed img {
         width: 350px;
         height: 446px; 
         
 }   }
+
+
 @media screen and (max-width:500px) {
-    .card_content img {
+    .Breed img {
         width: 100%;
         /* height: 446px;  */
 }   }
 @media screen and (max-width:400px) {
-    .card_content img {
+    .Breed img {
         width: 300px;
         /* height: 446px;  */
         
     }
    
 }
+
+@media screen and (max-width:375px) {
+    .body_content {
+        margin-left: 25px;
+    }
+    .Breed{
+        margin-left: 20px;
+    }
+    
+        
+}   
+
 @media screen and (max-width:280px) { 
     .body_content {
         font-size: 35px;
         margin-left: 20px;
     }
-    .card_content img {
+    .Breed img {
        width: 300px;
       
       

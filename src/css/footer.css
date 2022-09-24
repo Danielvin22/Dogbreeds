@@ -343,17 +343,46 @@
         margin-left: 5px;
         width: 110px;
         border-bottom: 1px solid;
-        
-    }
-}
-
+}    }
 @media screen and (max-width:375px) {
 
+    .last-footer .last-footer1 {
+        position: absolute;
+        bottom: 30px;    
+    }
+    .last-footer .copy {
+        width: 120px;
+    }
+
+    .last-footer .li {
+        width: 100px; 
+        height: 20px;
+    }
+    
     .last-footer .policy {
-        margin-right: 10px;
+        position: relative;
+        right: 15px;
+        width: 95px;
+        border-bottom: 1px solid;
         
     }
+
+    .last-footer .Terms {
+      position: relative;
+      right: 30px;
+      width: 105px;
+      border-bottom: 1px solid;
+        
+    }
+
+    .mailForm > button {
+        
+       
+    }
 }
+
+
+
 
 @media screen and (max-width:280px) {
     .footer_content .footer_content1 p {

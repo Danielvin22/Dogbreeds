@@ -75,18 +75,32 @@
     
     .navbar_content .navbar_btn > button {
         
-        background: none;
-        
+        background: none;    
+}   }
+@media screen and (max-width:375px) {
+    .navbar_content .logo {
+        margin-left: 20px;
+
     }
-@media screen and (max-width:280px) {
-
-
 
     .navbar_content .navbar_btn {
-        
+        margin-right: 6px;
     }
 
-   
+    .navbar_content .logo h1 {
+        display: none;
+    }
+    .navbar_content .logo img {
+        width: 40px;
+        height: 36px;
+    }
+    
+    .navbar_content .navbar_btn > button {
+        
+        background: none;    
+}   }
+
+@media screen and (max-width:280px) {
     .navbar_content .logo img {
         width: 30px;
         height: 26px;
@@ -98,12 +112,7 @@
         
         
     }
-
-
-
-    
-
-    
+   
 }
 
 

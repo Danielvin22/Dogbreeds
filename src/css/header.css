@@ -32,6 +32,29 @@
         width: 320px;
         height: 80px;
 }    }
+@media screen and (max-width:540px) {
+
+    .header-svg {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .header-svg h2{
+        position: absolute;
+        right: 120px;
+        width: 350px;
+        height: 70px;
+        font-size: 50px;
+       
+        
+    }
+
+    .header-svg img {
+        width: 300px;
+        height: 70px;
+        margin-right: 120px;
+}    }
 @media screen and (max-width:500px) {
 
     .header-svg {
