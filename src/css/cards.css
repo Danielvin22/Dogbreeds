@@ -1,15 +1,11 @@
-#cards {
-    background: #ffffff;
-    padding: 89px 0;
-    height: 100%;
-}
+
 
 .body_content{
     font-family:'Inter', sans-serif ;
     font-size: 48px;
     font-weight: 500px;
     font-style: normal;
-    margin-bottom: 29px;
+    margin: 50px 0px 30px 20px;
 }
 
 
@@ -20,12 +16,12 @@
 }
 
 .Breed img {
-    width: 325px;
+    width: 345px;
     height: 400px; 
-    margin: 30px 0px 0px 15px;
+    margin: 18px 0px 0px 18px;
 }
 
- @media screen and (max-width:1130px) {
+ /* @media screen and (max-width:1130px) {
     .body_content {
         margin-left: 40px;
     }
@@ -33,7 +29,7 @@
         margin-left: 20px;
     }
      
-}
+} */
 @media screen and (max-width:768px) {
     .body_content {
         margin-left: 40px;
@@ -51,11 +47,13 @@
 @media screen and (max-width:500px) {
     .Breed img {
         width: 100%;
+        
         /* height: 446px;  */
 }   }
 @media screen and (max-width:400px) {
     .Breed img {
         width: 300px;
+        margin-left: 20px;
         /* height: 446px;  */
         
     }
@@ -64,9 +62,10 @@
 
 @media screen and (max-width:375px) {
     .body_content {
-        margin-left: 25px;
+        margin-left: 35px;
+        font-size: 40px;
     }
-    .Breed{
+    .Breed img {
         margin-left: 20px;
     }
     
@@ -80,6 +79,7 @@
     }
     .Breed img {
        width: 300px;
+       
       
       
         
