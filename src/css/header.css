@@ -2,9 +2,11 @@
     background: #ffffff;
 }
 .header-svg {
+    min-width: ;
     text-align: center;
     align-items: center;
     margin-top: 187px
+    
 }
 
 .header-svg img {

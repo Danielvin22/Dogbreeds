@@ -5,6 +5,7 @@
     width: 100%;
     height: 10%;
     border: 1px solid #E3E7EE;
+    z-index: 20;
 
 }
 
@@ -34,7 +35,7 @@
 .navbar_content .navbar_btn > button {
     width: 143px;
     height: 29px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
     background: #EEF3FB;
     border-radius: 20px;
     border: none;
@@ -42,23 +43,7 @@
     color: #000000;
 }
 
-.navbar_content .navbar_btn {
-    /* margin-right: 40px; */
-}
 
-
-/* @media screen and (max-width:1130px) {
-    .navbar_content .logo {
-        margin-left: 20px;
-
-    }
-
-    .navbar_content .navbar_btn {
-        margin-right: 40px;
-    } */
-
-    
- 
 @media screen and (max-width:768px) {
     .navbar_content .logo {
         margin-left: 20px;

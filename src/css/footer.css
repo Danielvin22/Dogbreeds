@@ -88,7 +88,7 @@
 
 
 .mailForm > input {
-    width: 304px;
+    width: 100%;
     height: 48px;
     background: #FFFFFF;
     border: 2px solid #E3E7EE;
@@ -96,14 +96,27 @@
     padding-left: 14px;
 }
 
-.mailForm > button {
+.mailForm {
     position: relative;
-    right: 53px;
-    top: 17px;
+}
+
+/* .mailForm > button {
+    position: relative;
+    left: 257px;
+    top: -45px;
+    background: none;
+    border: none;
+    outline: none;
+} */
+.mailForm > button {
+    position: absolute;
+    left: 255px;
+    top: 2px;
     background: none;
     border: none;
     outline: none;
 }
+
 .footer4 p{
     font-size: 14px;
     font-family:'Inter', sans-serif ;
@@ -203,8 +216,8 @@
 }
 
 /* footer mediaquary */
-
-@media screen and (max-width:900px) {
+/* 
+ @media screen and (max-width:900px) {
     .footer_content {
         display: block;
         margin-left: 20px;
@@ -229,8 +242,8 @@
    }  
 
    /* last-footer madiaquary */
-
-
+ 
+/*  
    .last-footer {
        display: block;
        height: 250px;
@@ -242,30 +255,37 @@
        
    }
    .last-footer {
-    position: relative;   
+        position: relative;   
     }
     .footer_content .footer_content4 p {
-    margin-right: 150px;    
+        margin-right: 150px;    
     }
     .last-footer .last-footer1 {
-    position: absolute;
-    bottom: 50px;    
-    margin-left: 20px;
+        position: absolute;
+        bottom: 50px;    
+        margin-left: 20px;
 
     }
     .last-footer .last-footer2 .language {
-    position: absolute;
-    bottom: 90px;    
-    margin-left: 20px;
+        position: absolute;
+        bottom: 90px;    
+        margin-left: 20px;
     }
     .last-footer .last-footer2 .follow {
-    position: absolute;
-    top: 15px;
+        position: absolute;
+        top: 15px;
     
     }
 
+    .mailForm > input {
+        width: 100%;
+        height: 48px;
+        margin: 0;
+        
+    } 
 
-}
+
+}   */
 
 @media screen and (max-width:768px) {
     .footer_content {
@@ -317,8 +337,28 @@
         position: absolute;
         top: 15px;
     }
-}
-@media screen and (max-width:414px) {
+
+    .mailForm > button {
+        position: absolute;
+        left: 575px;
+        top: 2px;
+        background: none;
+        border: none;
+        outline: none;
+    }
+     
+    .mailForm {
+        margin: 10px;
+    } 
+    .mailForm > input {
+        width: 100%;
+        height: 48px;
+        
+    }
+
+
+} 
+ @media screen and (max-width:414px) {
 
     .last-footer .last-footer1 {
         position: absolute;
@@ -342,8 +382,39 @@
     .last-footer .Terms {
         margin-left: 5px;
         width: 110px;
-        border-bottom: 1px solid;
-}    }
+     border-bottom: 1px solid;
+    }
+
+    .mailForm > input {
+        width: 100%;
+        height: 48px;
+        
+    }
+    .mailForm > button {
+        position: absolute;
+        left: 328px;
+        top: 2px;  
+    }
+}
+@media screen and (max-width:393px){
+    .mailForm > button {
+        position: absolute;
+        left: 304px;
+        top: 2px;  
+    }
+
+}
+@media screen and (max-width:360px){
+    .mailForm > button {
+        position: absolute;
+        right: -20px;
+        top: 2px;  
+    }
+
+} 
+@media screen and (max-width:375px) {
+
+} 
 @media screen and (max-width:375px) {
 
     .last-footer .last-footer1 {
@@ -376,15 +447,19 @@
     }
 
     .mailForm > button {
+        position: absolute;
+        left: 290px;
+        top: 2px;
         
-       
+    }  
+
+     .mailForm > input {
+        width: 100%;
+        height: 48px;
     }
-}
+} 
 
-
-
-
-@media screen and (max-width:280px) {
+ @media screen and (max-width:280px) {
     .footer_content .footer_content1 p {
         font-size: 12px;
         width: 270px;
@@ -397,15 +472,21 @@
         
         
     }
-    .mailForm > button {
+    /* .mailForm > button {
         position: relative;
     right: -5px;
         
-    }
+    } */
     .last-footer select {
         width: 240px;
         height: 40px;
         
-    } 
+    }  
 
-}
+    .mailForm > input {
+        width: 100%;
+        height: 48px;
+        
+    }
+
+}   
